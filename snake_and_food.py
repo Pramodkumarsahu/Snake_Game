@@ -1,3 +1,5 @@
+import turtle
+
 snake = turtle.Turtle()
 snake.speed(0)
 snake.shape('square')

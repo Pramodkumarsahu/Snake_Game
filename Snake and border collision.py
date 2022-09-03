@@ -1,3 +1,8 @@
+from snake_and_food import snake,scoring
+from Creating_screen import screen
+import time
+
+
 if snake.xcor()>280 or snake.xcor()< -300 or snake.ycor()>240 or snake.ycor()<-240:
     time.sleep(1)
     screen.clear()
